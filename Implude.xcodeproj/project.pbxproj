@@ -14,6 +14,7 @@
 		81BA5F1824108FB30041FB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA5F1624108FB30041FB78 /* Main.storyboard */; };
 		81BA5F1A24108FB30041FB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BA5F1924108FB30041FB78 /* Assets.xcassets */; };
 		81BA5F1D24108FB30041FB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BA5F1B24108FB30041FB78 /* LaunchScreen.storyboard */; };
+		81E1D2802412200600737D75 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E1D27F2412200600737D75 /* User.swift */; };
 		F1F982DCD0F0636FFE64304E /* Pods_Implude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33329770372753753180AFE /* Pods_Implude.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		81BA5F1924108FB30041FB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81BA5F1C24108FB30041FB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81BA5F1E24108FB30041FB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E1D27F2412200600737D75 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C811A26BD080611F87CF2BBC /* Pods-Implude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Implude.debug.xcconfig"; path = "Target Support Files/Pods-Implude/Pods-Implude.debug.xcconfig"; sourceTree = "<group>"; };
 		F33329770372753753180AFE /* Pods_Implude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Implude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				81BA5F1B24108FB30041FB78 /* LaunchScreen.storyboard */,
 				81BA5F1E24108FB30041FB78 /* Info.plist */,
 				81766B232410A5C000E3EA02 /* GoogleService-Info.plist */,
+				81E1D27F2412200600737D75 /* User.swift */,
 			);
 			path = Implude;
 			sourceTree = "<group>";
@@ -106,6 +109,7 @@
 				81BA5F0A24108FB30041FB78 /* Frameworks */,
 				81BA5F0B24108FB30041FB78 /* Resources */,
 				B6477D053D97F5E340237B63 /* [CP] Embed Pods Frameworks */,
+				571BB0C38A193601EA278425 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,6 +168,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		571BB0C38A193601EA278425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Implude/Pods-Implude-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Implude/Pods-Implude-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Implude/Pods-Implude-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AE907DF2C3F3435A56A0E119 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -213,6 +234,7 @@
 				81BA5F1524108FB30041FB78 /* LoginViewController.swift in Sources */,
 				81BA5F1124108FB30041FB78 /* AppDelegate.swift in Sources */,
 				81BA5F1324108FB30041FB78 /* SceneDelegate.swift in Sources */,
+				81E1D2802412200600737D75 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
